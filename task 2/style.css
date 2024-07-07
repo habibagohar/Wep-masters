@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stunning Free Stock Photos for Download</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-image: url('https://cdn.pixabay.com/photo/2024/05/15/21/04/pink-clouds-8764532_1280.jpg');
+            background-size: cover;
+             width:100%;
+            color: white;
+            text-align: center;
+            padding:100px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+        header p {
+            font-size: 20px;
+          margin-bottom:40px;
+        }
+        .sea {
+            margin: 40px auto;
+            text-align: center;
+          
+        }
+        .sea input {
+            width: 60%;
+            padding: 10px;
+            font-size: 16px;
+           border-radius: 30px;
+          border: none;
+        }
+        .sea button {
+            padding: 10px;
+            font-size: 16px;
+           border-radius:30px;
+          border: none;     
+}
+        .tag {
+            text-align: center;
+            margin-top:40px;  
+}
+        .tag a {
+            text-decoration: none;
+            color: #333;
+            background: #e2e2e2;
+            padding: 8px 15px;
+            margin: 5px;
+            border-radius: 10px;
+          margin-bottom:30px;
+        }
+        .tag a:hover {
+            background: #00ab6b;
+        }
+        .gallery {
+           display: grid;
+          margin-top:50px;
+           grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+           gap: 25px;
+         margin-left: 50px;
+        margin-right: 50px;
+    max-width: 100%;
+        }
+        .gallery img {
+            width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+        }
+img:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+    </style>
+</head>
+
+
