@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* ترتيب العناصر عموديًا */
+    height: 100vh;
+    margin: 0;
+    background-color: #222; /* لون خلفية جديد */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-header {
+    margin-bottom: 20px; /* مسافة بين العنوان والحاسبة */
+    text-align: center;
+}
+
+.title {
+    color: #f3c623; /* لون العنوان الأصفر */
+    font-size: 2.5em; /* تكبير حجم العنوان */
+    font-weight: bold; /* جعل العنوان أكثر سمكًا */
+    text-transform: uppercase; /* تحويل النص إلى حروف كبيرة */
+    letter-spacing: 2px; /* تباعد الحروف */
+}
+
+.calculator {
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.display {
+    background-color: #444;
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #fff;
+    font-size: 2em;
+    padding: 20px 10px;
+    text-align: right;
+}
+
+.buttons {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 10px;
+}
+
+button {
+    background-color: #666;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.5em;
+    padding: 20px 0;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #888;
+}
+
+.orange {
+    background-color: #ff9f00; /* لون جديد للأزرار البرتقالية */
+}
+
+.gray {
+    background-color: #444; /* لون جديد للأزرار الرمادية */
+}
+
+.zero {
+    grid-column: span 2; /* لتمتد على عمودين */
+}
